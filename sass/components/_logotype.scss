@@ -1,0 +1,56 @@
+.logotype {
+    display: block;
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.167;
+
+    color: var(--accent-color);
+
+    .header & {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    }
+
+    .footer & {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .logotype {
+        margin-right: 88px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.logotype {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--accent-color);
+}
+
+.logo-margin-header {
+    margin-right: 93px;
+    padding-top: 24.6px;
+    padding-bottom: 25px;
+}
+
+.logo-margin-footer {
+    margin-bottom: 20px;
+    }
+}
+
+.logotype-studio-light-theme {
+    color: #000000;
+}
+
+.logotype-studio-dark-theme {
+    color: var(--header-hero-btn-color);
+}
+
+
