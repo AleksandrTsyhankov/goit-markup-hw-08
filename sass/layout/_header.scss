@@ -2,12 +2,6 @@
     border-bottom: var(--header-line-color);
 }
 
-@media screen and (max-width: 768px) {
-.nav-list,
-.header-contacts-list {
-    display: none;
-}
-
 .burger-button,
 .mobile-close-button {
     height: 40px;
@@ -49,6 +43,7 @@
     position: absolute;
     top: 0;
     left: 50%;
+
     transform: translateX(-50%) translateY(-150%);
     z-index: 10;
 
@@ -56,6 +51,7 @@
 
     width: 100%;
     max-width: 480px;
+    height: 100%;
     height: 100vh;
 
     background: var(--header-hero-btn-color);
@@ -137,6 +133,13 @@
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+.nav-list,
+.header-contacts-list {
+    display: none;
     }
 }
 
